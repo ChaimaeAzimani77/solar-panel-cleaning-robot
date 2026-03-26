@@ -1,2 +1,2 @@
 # solar-panel-cleaning-robot
-Robot automatique conçu pour nettoyer les panneaux photovoltaïques et maintenir leur rendement optimal.
+Robot automatique de nettoyage des panneaux solaires - PFE EST Meknès 2024
