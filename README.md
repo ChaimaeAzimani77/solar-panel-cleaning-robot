@@ -23,6 +23,7 @@ Le système fonctionne en deux modes :
 -**Mode Manuel** : Enclenché par un bouton poussoir, il permet à l'utilisateur de contrôler                             directement les mouvements du robot.
 
 ## 🛠️ Partie Matérielle (Hardware) :
+
 ## 🔌 Composants utilisés :
 
 - Carte Arduino (unité de traitement)
@@ -37,6 +38,9 @@ Le système fonctionne en deux modes :
 
 ## 🔗 Schéma synoptique :
 ![Schéma synoptique](Schema/Synoptique/shema.png)
+
+## 🔌 Schéma de simulation (Proteus) :
+![Simulation Proteus](Schema/Electronique/simulation.png)
 
 ## 🛠️ Technologies utilisées
 - Arduino UNO
