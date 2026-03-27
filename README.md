@@ -26,15 +26,15 @@ Le système fonctionne en deux modes :
 
 ## 🔌 Composants utilisés :
 
-- Carte Arduino (unité de traitement)
-- 3 moteurs DC :
+- **Carte Arduino** (unité de traitement)
+- **3 moteurs DC** :
   - 2 pour déplacement
   - 1 pour la brosse
-- Capteurs :
+- **Capteurs** :
   - Capteurs fin de course
   - Capteur infrarouge
-- Driver moteur L298N
-- Alimentation (batterie)
+- **Driver moteur L298N**
+- **Alimentation (batterie)**
 
 ## 🔗 Schéma synoptique :
 ![Schéma synoptique](Schema/Synoptique/shema.png)
