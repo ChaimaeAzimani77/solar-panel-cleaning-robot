@@ -2,6 +2,7 @@
 
 ## 📝 Description :
 Ce projet consiste à concevoir et réaliser un robot automatique pour le nettoyage des panneaux solaires afin d'améliorer leur rendement.
+![Schéma synoptique](Realisation_Finale/Realisation_Finale.png)
 
 ## 👩‍💻 Réalisé par :
 - El Azimani Chaimae
