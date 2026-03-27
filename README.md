@@ -89,6 +89,6 @@ Tests effectués sur installation PV réelle :
 - Ajout d’un module IoT (ESP8266 / ESP32) pour contrôler le robot à distance.
 - Développement d’une application mobile pour le pilotage et le suivi.
 - Utilisation de l’intelligence artificielle pour optimiser le nettoyage (détection avancée de saleté).
-- 
+  
 ## 🚀 Conclusion
 Solution simple, efficace et économique pour le nettoyage des panneaux solaires.
