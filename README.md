@@ -45,6 +45,9 @@ Tests effectués sur installation PV réelle :
 - Nettoyage efficace validé
 - Rendement restauré après nettoyage
 - Deux modes de fonctionnement opérationnels
-  
+
+## jjjj
+!Schema/Electronique/simulation.png
+
 ## 🚀 Conclusion
 Solution simple, efficace et économique pour le nettoyage des panneaux solaires.
