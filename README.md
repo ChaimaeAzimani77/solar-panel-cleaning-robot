@@ -62,27 +62,33 @@ Le système fonctionne en deux modes :
 
 ## 🔨 Réalisation du Prototype :
 
-### Étape 1 — Assemblage mécanique
+### Étape 1 — Assemblage mécanique :
 ![Prototype forme](Realisation_Finale/1.png)
 
-### Étape 2 — Test sur plaque d'essai
+### Étape 2 — Test sur plaque d'essai :
 ![Test plaque essai](Realisation_Finale/2.png)
 
-### Étape 3 — Soudage des composants
+### Étape 3 — Soudage des composants :
 <p float="left">
   <img src="Realisation_Finale/3.png" width="45%"/>
   <img src="Realisation_Finale/4.png" width="45%"/>
 </p>
 
-### Étape 4 — Réalisation Finale ✅
+### Étape 4 — Réalisation Finale :
 ![Realisation Finale](Realisation_Finale/Realisation_Finale.png)
 
 
-## 📊 Résultats
+## 📊 Résultats :
 Tests effectués sur installation PV réelle :
 - Nettoyage efficace validé
 - Rendement restauré après nettoyage
 - Deux modes de fonctionnement opérationnels
 
+## 🚀 Améliorations possibles :
+- Intégration d’un panneau solaire pour rendre le robot autonome en énergie.
+- Ajout d’un module IoT (ESP8266 / ESP32) pour contrôler le robot à distance.
+- Développement d’une application mobile pour le pilotage et le suivi.
+- Utilisation de l’intelligence artificielle pour optimiser le nettoyage (détection avancée de saleté).
+- 
 ## 🚀 Conclusion
 Solution simple, efficace et économique pour le nettoyage des panneaux solaires.
