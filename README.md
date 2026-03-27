@@ -15,12 +15,20 @@ L'accumulation de poussière sur les panneaux solaires peut réduire leur rendem
 - Automatiser le nettoyage
 - Maintenir un rendement énergétique élevé
 
+---
+
 ## ⚙️ Fonctionnement :
+
 Le système fonctionne en deux modes :
 
--**Mode Automatique** : S'active automatiquement dès que le système détecte une baisse de rendement                          des panneaux solaires due à la saleté. Le nettoyage s'effectue de bas en haut                        et s'arrête grâce aux capteurs de fin de course.
+- **Mode Automatique** :
+  S'active automatiquement dès que le système détecte une baisse de rendement des panneaux solaires due à la saleté.  
+  Le nettoyage s'effectue de bas en haut et s'arrête grâce aux capteurs de fin de course.
 
--**Mode Manuel** : Enclenché par un bouton poussoir, il permet à l'utilisateur de contrôler                             directement les mouvements du robot.
+- **Mode Manuel** :
+  Enclenché par un bouton poussoir, il permet à l'utilisateur de contrôler directement les mouvements du robot.
+
+---
 
 ## 🛠️ Partie Matérielle (Hardware) :
 
@@ -35,60 +43,95 @@ Le système fonctionne en deux modes :
   - Capteur infrarouge
 - **Driver moteur L298N**
 - **Alimentation (batterie)**
-- **Panneau Solaire 10W**
+- **Panneau solaire 10W**
+
+---
 
 ## 🔗 Schéma synoptique :
-![Schéma synoptique](Schema/Synoptique/shema.png)
+
+<p align="center">
+  <img src="Schema/Synoptique/shema.png" width="500"/>
+</p>
+
+---
 
 ## 🔌 Schéma de simulation (Proteus) :
-![Simulation Proteus](Schema/Electronique/simulation.png)
+
+<p align="center">
+  <img src="Schema/Electronique/simulation.png" width="500"/>
+</p>
+
+---
 
 ## 💻 Partie Logicielle (Software) :
 
 ## 🧾 Outils utilisés :
+
 | Logiciels | Utilisations |
 |---|---|
 | **Arduino IDE**  | Programmation du microcontrôleur |
 | **Proteus ISIS** | Simulation du schéma électrique |
 | **CoolTerm** | Monitoring série |
 
+---
+
 ## ⚙️ Logique et Organigramme :
 
-## 🔄 Mode Automatique :
-![Organigramme automatique](Organigramme/Mode_Automatique.png)
+### 🔄 Mode Automatique :
+<p align="center">
+  <img src="Organigramme/Mode_Automatique.png" width="400"/>
+</p>
 
-## 🎮 Mode Manuel :
-![Organigramme manuel](Organigramme/Mode_Manuel.png)
+### 🎮 Mode Manuel :
+<p align="center">
+  <img src="Organigramme/Mode_Manuel.png" width="400"/>
+</p>
+
+---
 
 ## 🔨 Réalisation du Prototype :
 
 ### Étape 1 — Assemblage mécanique :
-![Prototype forme](Realisation_Finale/1.png)
+<p align="center">
+  <img src="Realisation_Finale/1.png" width="400"/>
+</p>
 
 ### Étape 2 — Test sur plaque d'essai :
-![Test plaque essai](Realisation_Finale/2.png)
+<p align="center">
+  <img src="Realisation_Finale/2.png" width="400"/>
+</p>
 
 ### Étape 3 — Soudage des composants :
-<p float="left">
-  <img src="Realisation_Finale/3.png" width="45%"/>
-  <img src="Realisation_Finale/4.png" width="45%"/>
+<p align="center">
+  <img src="Realisation_Finale/3.png" width="40%"/>
+  <img src="Realisation_Finale/4.png" width="40%"/>
 </p>
 
 ### Étape 4 — Réalisation Finale :
-![Realisation Finale](Realisation_Finale/Realisation_Finale.png)
+<p align="center">
+  <img src="Realisation_Finale/Realisation_Finale.png" width="400"/>
+</p>
 
+---
 
 ## 📊 Résultats :
-Tests effectués sur installation PV réelle :
+Tests effectués sur installation photovoltaïque réelle :
+
 - Nettoyage efficace validé
 - Rendement restauré après nettoyage
 - Deux modes de fonctionnement opérationnels
 
+---
+
 ## 🚀 Améliorations possibles :
-- Intégration d’un panneau solaire pour rendre le robot autonome en énergie.
-- Ajout d’un module IoT (ESP8266 / ESP32) pour contrôler le robot à distance.
-- Développement d’une application mobile pour le pilotage et le suivi.
-- Utilisation de l’intelligence artificielle pour optimiser le nettoyage (détection avancée de saleté).
-  
+
+- ☀️ Intégration complète d’un panneau solaire pour autonomie énergétique
+- 🌐 Ajout d’un module IoT (ESP8266 / ESP32) pour contrôle à distance
+- 📱 Développement d’une application mobile
+- 🤖 Intégration de l’intelligence artificielle pour détection avancée de saleté
+- 🔋 Optimisation de la consommation énergétique
+
+---
+
 ## 🚀 Conclusion
-Solution simple, efficace et économique pour le nettoyage des panneaux solaires.
+Solution simple, efficace et économique pour le nettoyage des panneaux solaires, permettant d’améliorer significativement leur rendement.
