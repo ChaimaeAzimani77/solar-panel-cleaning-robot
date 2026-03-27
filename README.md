@@ -17,8 +17,9 @@ L'accumulation de poussière sur les panneaux solaires peut réduire leur rendem
 
 ## ⚙️ Fonctionnement
 Le système fonctionne en deux modes :
-**Mode Automatique** : S'active automatiquement dès que le système détecte une baisse de rendement                          des panneaux solaires due à la saleté. Le nettoyage s'effectue de bas en haut                        et s'arrête grâce aux capteurs de fin de course.
-**Mode Manuel** : Enclenché par un bouton poussoir, il permet à l'utilisateur de contrôler                             directement les mouvements du robot.
+
+-**Mode Automatique** : S'active automatiquement dès que le système détecte une baisse de rendement                          des panneaux solaires due à la saleté. Le nettoyage s'effectue de bas en haut                        et s'arrête grâce aux capteurs de fin de course.
+-**Mode Manuel** : Enclenché par un bouton poussoir, il permet à l'utilisateur de contrôler                             directement les mouvements du robot.
 
 ## 🧠 Architecture du système
 - Carte Arduino (unité de traitement)
