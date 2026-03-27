@@ -56,20 +56,27 @@ Le système fonctionne en deux modes :
 
 ## 🔄 Mode Automatique :
 ![Organigramme automatique](Organigramme/Mode_Automatique.png)
-**💡 logique :**
-1. Détection saleté
-2. Démarrage robot
-3. Déplacement
-4. Nettoyage
-5. Arrêt fin de course
 
 ## 🎮 Mode Manuel :
 ![Organigramme manuel](Organigramme/Mode_Manuel.png)
 
-## 💻 Logiciels utilisés
-- Arduino IDE
-- Proteus Professional (ISIS)
-- CoolTerm
+## 🔨 Réalisation du Prototype :
+
+### Étape 1 — Assemblage mécanique
+![Prototype forme](Realisation_Finale/1.png)
+
+### Étape 2 — Test sur plaque d'essai
+![Test plaque essai](Realisation_Finale/2.png)
+
+### Étape 3 — Soudage des composants
+<p float="left">
+  <img src="Realisation_Finale/3.png" width="45%"/>
+  <img src="Realisation_Finale/4.png" width="45%"/>
+</p>
+
+### Étape 4 — Réalisation Finale ✅
+![Realisation Finale](Realisation_Finale/Realisation_Finale.png)
+
 
 ## 📊 Résultats
 Tests effectués sur installation PV réelle :
