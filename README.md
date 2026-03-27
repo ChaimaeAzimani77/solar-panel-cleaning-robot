@@ -35,12 +35,22 @@ Le système fonctionne en deux modes :
   - Capteur infrarouge
 - **Driver moteur L298N**
 - **Alimentation (batterie)**
+- **Panneau Solaire 10W**
 
 ## 🔗 Schéma synoptique :
 ![Schéma synoptique](Schema/Synoptique/shema.png)
 
 ## 🔌 Schéma de simulation (Proteus) :
 ![Simulation Proteus](Schema/Electronique/simulation.png)
+
+## 💻 Partie Logicielle (Software) :
+
+## 🧾 Outils utilisés :
+| Logiciels | Utilisations |
+|---|---|
+| **Arduino IDE**  | Programmation du microcontrôleur |
+| **Proteus ISIS** | Simulation du schéma électrique |
+| **CoolTerm** | Monitoring série |
 
 ## 🛠️ Technologies utilisées
 - Arduino UNO
