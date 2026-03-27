@@ -1,50 +1,111 @@
-# 🤖 Solar Panel Cleaning Robot
+# 🤖 Robot de Nettoyage de Panneaux Solaires
 
-## 📌 Description
-Ce projet consiste à concevoir et réaliser un robot automatique pour le nettoyage des panneaux solaires afin d'améliorer leur rendement.
+> Projet de Fin d'Études — École Supérieure de Technologie de Meknès | 2023/2024
 
 ## 👩‍💻 Réalisé par
-- El Azimani Chaimae
-- Drissi Salma
+- **El Azimani Chaimae**
+- **Drissi Salma**
 
-## 🎯 Problématique
-L'accumulation de poussière sur les panneaux solaires peut réduire leur rendement jusqu'à 79%. Ce robot propose une solution automatique et économique pour résoudre ce problème.
+**Encadré par :** Mr. Abdelali Ed-Dahhak
+
+---
+
+## 📌 Problématique
+
+L'accumulation de poussière sur les panneaux solaires réduit leur 
+rendement jusqu'à **79%**. Ce projet propose une solution automatique 
+et économique pour maintenir des panneaux propres en permanence.
+
+---
 
 ## 🎯 Objectifs
-- Réduire l’impact de la poussière sur les panneaux
-- Automatiser le nettoyage
-- Maintenir un rendement énergétique élevé
+- Identifier les facteurs affectant le rendement des panneaux PV
+- Développer un système de nettoyage automatique et manuel
+- Concevoir, fabriquer et tester le robot sur une installation réelle
 
-## ⚙️ Fonctionnement
-Le système fonctionne en deux modes :
-- Mode automatique : déclenché par détection de baisse de rendement
-- Mode manuel : contrôlé via bouton
+---
 
-## 🧠 Architecture du système
-- Carte Arduino (unité de traitement)
-- 3 moteurs DC :
-  - 2 pour déplacement
-  - 1 pour la brosse
-- Capteurs :
-  - Capteurs fin de course
-  - Capteur infrarouge
+## ⚙️ Schéma Synoptique
 
-## 🛠️ Technologies utilisées
-- Arduino UNO
-- L298N (driver moteur)
-- Capteurs IR
-- Proteus (simulation)
+![Schema Synoptique](images/schema_synoptique.png)
 
-## 💻 Logiciels utilisés
-- Arduino IDE
-- Proteus Professional (ISIS)
-- CoolTerm
+Le système fonctionne selon **2 modes** :
+- **Mode automatique** : détection de saleté via capteur infrarouge
+- **Mode manuel** : contrôle direct via bouton poussoir
 
-## 📊 Résultats
-Tests effectués sur installation PV réelle :
-- Nettoyage efficace validé
-- Rendement restauré après nettoyage
-- Deux modes de fonctionnement opérationnels
+---
 
-## 🚀 Conclusion
-Solution simple, efficace et économique pour le nettoyage des panneaux solaires.
+## 🛠️ Composants Utilisés
+
+| Composant | Image | Rôle |
+|---|---|---|
+| Arduino UNO | — | Carte de contrôle principale |
+| Moteur DC | ![Moteur DC](images/moteur_dc.jpeg) | Déplacement du bras (x2) + brosse |
+| Circuit L298N | ![L298N](images/circuit_L298N.jpeg) | Pilotage des moteurs |
+| Capteur fin de course | ![Fin de course](images/capteur_fin_de_course.jpeg) | Limites de déplacement |
+| Capteur Infrarouge | ![IR](images/capteur_infrarouge.jpeg) | Détection de saleté |
+| Panneau Solaire 10W | ![Panneau](images/panneau_solaire_10W.jpeg) | Alimentation du système |
+
+---
+
+## 💻 Logiciels Utilisés
+- **Arduino IDE** — Programmation du microcontrôleur
+- **Proteus ISIS** — Simulation du schéma électrique
+- **CoolTerm** — Monitoring série
+
+---
+
+## 🔨 Réalisation du Prototype
+
+### Étape 1 — Assemblage mécanique
+![Prototype forme](images/prototype_forme.jpeg)
+
+### Étape 2 — Test sur plaque d'essai
+![Test plaque essai](images/test_plaque_essai.jpeg)
+
+### Étape 3 — Soudage des composants
+<p float="left">
+  <img src="images/soudage_1.jpeg" width="45%"/>
+  <img src="images/soudage_2.jpeg" width="45%"/>
+</p>
+
+### Étape 4 — Réalisation Finale ✅
+<p float="left">
+  <img src="images/realisation_finale_1.jpeg" width="30%"/>
+  <img src="images/realisation_finale_2.jpeg" width="30%"/>
+  <img src="images/realisation_finale_3.jpeg" width="30%"/>
+</p>
+
+---
+
+## 📊 Résultats Expérimentaux
+
+Les tests ont été conduits sur **3 jours consécutifs** :
+
+| Jour | Condition | Résultat |
+|---|---|---|
+| Jour 1 | Panneau propre | Rendement de référence |
+| Jour 2 | Panneau avec poussière | Baisse significative du rendement |
+| Jour 3 | Après nettoyage robot | Rendement restauré ✅ |
+
+---
+
+## 📁 Contenu du Dépôt
+```
+solar-panel-cleaning-robot/
+├── code/
+│   └── robot_nettoyage.ino
+├── images/
+│   ├── schema_synoptique.png
+│   ├── moteur_dc.jpeg
+│   ├── circuit_L298N.jpeg
+│   ├── capteur_fin_de_course.jpeg
+│   ├── capteur_infrarouge.jpeg
+│   ├── panneau_solaire_10W.jpeg
+│   ├── prototype_forme.jpeg
+│   ├── test_plaque_essai.jpeg
+│   ├── soudage_1.jpeg / soudage_2.jpeg
+│   └── realisation_finale_1/2/3.jpeg
+└── docs/
+    └── rapport_PFE.pdf
+```
