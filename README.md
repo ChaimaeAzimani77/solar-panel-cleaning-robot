@@ -52,11 +52,19 @@ Le système fonctionne en deux modes :
 | **Proteus ISIS** | Simulation du schéma électrique |
 | **CoolTerm** | Monitoring série |
 
-## 🛠️ Technologies utilisées
-- Arduino UNO
-- L298N (driver moteur)
-- Capteurs IR
-- Proteus (simulation)
+## ⚙️ Logique et Organigramme :
+
+## 🔄 Mode Automatique :
+![Organigramme automatique](Organigramme/Mode_Automatique.png)
+**💡 logique :**
+1. Détection saleté
+2. Démarrage robot
+3. Déplacement
+4. Nettoyage
+5. Arrêt fin de course
+
+## 🎮 Mode Manuel :
+![Organigramme manuel](Organigramme/Mode_Manuel.png)
 
 ## 💻 Logiciels utilisés
 - Arduino IDE
