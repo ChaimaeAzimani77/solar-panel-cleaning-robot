@@ -22,8 +22,6 @@ Le système fonctionne en deux modes :
 
 -**Mode Manuel** : Enclenché par un bouton poussoir, il permet à l'utilisateur de contrôler                             directement les mouvements du robot.
 
----
-
 ## 🛠️ Partie Matérielle (Hardware) :
 
 ## 🔌 Composants utilisés :
