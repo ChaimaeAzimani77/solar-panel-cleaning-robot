@@ -1,5 +1,7 @@
 # 🤖 Solar Panel Cleaning Robot
 
+> **Projet de fin d'étude** — EST de Meknès | Filière Génie électrique | 2024/2025
+
 ## 📝 Description :
 Ce projet consiste à concevoir et réaliser un robot automatique pour le nettoyage des panneaux solaires afin d'améliorer leur rendement.
 
