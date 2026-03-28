@@ -107,11 +107,11 @@ Tests effectués sur installation photovoltaïque réelle :
 
 ## 🚀 Améliorations possibles :
 
-- ☀️ Intégration complète d’un panneau solaire pour autonomie énergétique
-- 🌐 Ajout d’un module IoT (ESP8266 / ESP32) pour contrôle à distance
-- 📱 Développement d’une application mobile
-- 🤖 Intégration de l’intelligence artificielle pour détection avancée de saleté
-- 🔋 Optimisation de la consommation énergétique
+-  Intégration complète d’un panneau solaire pour autonomie énergétique
+-  Ajout d’un module IoT (ESP8266 / ESP32) pour contrôle à distance
+-  Développement d’une application mobile
+-  Intégration de l’intelligence artificielle pour détection avancée de saleté
+-  Optimisation de la consommation énergétique
 
 ## 🚀 Conclusion
 Solution simple, efficace et économique pour le nettoyage des panneaux solaires, permettant d’améliorer significativement leur rendement.
