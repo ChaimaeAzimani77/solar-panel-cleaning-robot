@@ -15,8 +15,6 @@ L'accumulation de poussière sur les panneaux solaires peut réduire leur rendem
 - Automatiser le nettoyage
 - Maintenir un rendement énergétique élevé
 
----
-
 ## ⚙️ Fonctionnement :
 
 Le système fonctionne en deux modes :
@@ -27,8 +25,6 @@ Le système fonctionne en deux modes :
 
 - **Mode Manuel** :
   Enclenché par un bouton poussoir, il permet à l'utilisateur de contrôler directement les mouvements du robot.
-
----
 
 ## 🛠️ Partie Matérielle (Hardware) :
 
@@ -45,23 +41,17 @@ Le système fonctionne en deux modes :
 - **Alimentation (batterie)**
 - **Panneau solaire 10W**
 
----
-
 ## 🔗 Schéma synoptique :
 
 <p align="center">
   <img src="Schema/Synoptique/shema.png" width="500"/>
 </p>
 
----
-
 ## 🔌 Schéma de simulation (Proteus) :
 
 <p align="center">
   <img src="Schema/Electronique/simulation.png" width="500"/>
 </p>
-
----
 
 ## 💻 Partie Logicielle (Software) :
 
@@ -72,8 +62,6 @@ Le système fonctionne en deux modes :
 | **Arduino IDE**  | Programmation du microcontrôleur |
 | **Proteus ISIS** | Simulation du schéma électrique |
 | **CoolTerm** | Monitoring série |
-
----
 
 ## ⚙️ Logique et Organigramme :
 
@@ -86,8 +74,6 @@ Le système fonctionne en deux modes :
 <p align="center">
   <img src="Organigramme/Mode_Manuel.png" width="400"/>
 </p>
-
----
 
 ## 🔨 Réalisation du Prototype :
 
@@ -112,16 +98,12 @@ Le système fonctionne en deux modes :
   <img src="Realisation_Finale/Realisation_Finale.png" width="400"/>
 </p>
 
----
-
 ## 📊 Résultats :
 Tests effectués sur installation photovoltaïque réelle :
 
 - Nettoyage efficace validé
 - Rendement restauré après nettoyage
 - Deux modes de fonctionnement opérationnels
-
----
 
 ## 🚀 Améliorations possibles :
 
@@ -130,8 +112,6 @@ Tests effectués sur installation photovoltaïque réelle :
 - 📱 Développement d’une application mobile
 - 🤖 Intégration de l’intelligence artificielle pour détection avancée de saleté
 - 🔋 Optimisation de la consommation énergétique
-
----
 
 ## 🚀 Conclusion
 Solution simple, efficace et économique pour le nettoyage des panneaux solaires, permettant d’améliorer significativement leur rendement.
